@@ -1,4 +1,4 @@
-<body>
+<head>
 	<style>
 		.rotate {
 		    -webkit-transform: rotate(90deg);
@@ -8,6 +8,8 @@
 		    transform: rotate(90deg);
 		}
 	</style>
+</head>
+<body>
 	<table align="center">
 		<img src="https://github.com/xXxCLOTIxXx/e-valentine/blob/main/img.jpg" class="rotate">
 	</table>
