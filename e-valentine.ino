@@ -32,7 +32,7 @@ static const unsigned char PROGMEM main_bmp[] =
 };
 
 
-//logo
+
 
 #define LOGO_HEIGHT   16
 #define LOGO_WIDTH    16
@@ -48,7 +48,7 @@ void first(void) {
 }
 
 
-//Afler logo screen
+
 
 void second(){
   display.drawBitmap((display.width()  - LOGO_WIDTH ) / 2, (display.height() - LOGO_HEIGHT) / 2, main_bmp, LOGO_WIDTH, LOGO_HEIGHT, 1);
